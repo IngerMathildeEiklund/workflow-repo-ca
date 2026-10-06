@@ -33,6 +33,7 @@ async function handleLoginSubmit(event) {
     const { accessToken, ...user } = await login(profile);
     saveToken(accessToken);
     saveUser(user);
+    console.log(user);
     window.location.href = "/";
   } catch (error) {
     displayMessage(messageContainer, "error", error.message);
