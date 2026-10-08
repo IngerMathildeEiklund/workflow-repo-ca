@@ -2,6 +2,12 @@
 
 This is a website to find and book holiday venues.
 
+### Features
+
+- Authentication: login and register
+- View venues
+- Book a venue
+
 ### Prerequesites
 
 - Node.js to run npm
